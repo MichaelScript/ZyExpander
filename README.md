@@ -1,4 +1,4 @@
-# Zybooks-Scripts
+# ZyExpander
 Zybooks stores students in a bunch of nested zips and it can be hard to work with. ZyExpander seeks to fix that problem by taking a nested zip file from Zybooks and organizing it into a better folder structure.
 
 # Usage
