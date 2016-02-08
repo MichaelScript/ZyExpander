@@ -23,3 +23,7 @@ optional arguments:
 ```
 to do...
 ```
+
+# To Do
+1. Write command line script to link python file to bin directory for easy usage.
+2. Refactoring!!!!
