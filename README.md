@@ -1,9 +1,9 @@
 # ZyExpander
 Zybooks stores students in a bunch of nested zips and it can be hard to work with. ZyExpander seeks to fix that problem by taking a nested zip file from Zybooks and organizing it into a better folder structure.
-> Example of ZyBook's native class storage structure
-
 
 ```
+
+Example of ZyBook's native class storage structure:
 
 Lab1.zip
 ├── Student1_First_Last.zip
@@ -13,6 +13,7 @@ Lab1.zip
 └── Student2_First_Last.zip
     └── ==> lab1a.java
     ... 
+
 
 ```
 
