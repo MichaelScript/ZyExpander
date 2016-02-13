@@ -1,6 +1,8 @@
 # ZyExpander
 Zybooks stores students in a bunch of nested zips and it can be hard to work with. ZyExpander seeks to fix that problem by taking a nested zip file from Zybooks and organizing it into a better folder structure.
 > Example of ZyBook's native class storage structure
+
+
 ```
 
 Lab1.zip
@@ -14,6 +16,7 @@ Lab1.zip
 
 ```
 
+
 #### Difficulties
  1. Nested zips are annoying because even after they're expanded they remain in the directory, not only that but having to expand nested compressed files can get tedious.
  2. The actual programs get put in outer directory rather than in a folder. They all retain the same file name and this makes differentiating between students hard.
@@ -24,6 +27,7 @@ We can **speed up and organize** this process using ZyExpander. No more duplicat
 # Usage
 ## Basic Usage
 Simply run the file with your native python interpreter and supply a list of zipfiles to expand. Optionally you can specify an output directory to put the files into. By default ZyExpander will not overwrite any current directories that exist, but if you specify a directory that does not exist it will create it.
+
 
 ```
 
@@ -40,10 +44,14 @@ optional arguments:
 
 ```
 
+
 ## Installing as a command line tool
+
 ```
 to do...
 ```
 
+
 # To Do
 1. Write command line script to link python file to bin directory for easy usage.
+2. Refactoring!!!!
