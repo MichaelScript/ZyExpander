@@ -17,7 +17,7 @@ def get_args():
 	parser.add_argument('-o',default=".",help="option to specify an output directory (default is current directory)")
 	parser.add_argument('-s', default="/Students/",help="option to specify the name of the students directory (default is Students)")
 	parser.add_argument('-p',default="/Processed/",help="option to specify where to place processed zip files (default is Processed)")
-	args = parser.parse_args(["test_class.zip"])
+	args = parser.parse_args()
 	return [args.zips,args.o,args.o + args.s,args.o + args.p]
 
 def check_path(path):
@@ -40,7 +40,7 @@ def expand(zip,output_paths):
 	lab = zipfile.ZipFile( open(zip, "rb") )	
 	for student in lab.namelist():
 		#Replace of leading zip path with output dir and extra information on file names
-		student_dir = output_paths[0] + student[5:].split("-")[0].lower() + "/"
+		student_dir = output_paths[0] + student.split("-")[0].lower() + "/"
 		check_path(student_dir)
 		# We have to extract the nested zip files, because you can't
 		# extract nested zips' contgents
