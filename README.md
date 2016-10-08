@@ -1,5 +1,5 @@
 # ZyExpander
-Zybooks stores students in a bunch of nested zips and it can be hard to work with. ZyExpander seeks to fix that problem by taking a nested zip file from Zybooks and organizing it into a better folder structure.
+Zybooks stores students in a bunch of nested zips and it can be hard to work with. ZyExpander seeks to fix that problem by taking a nested zip file from Zybooks and organizing it into a better folder structure. This is pretty old, and the code isn't as nice as I'd like but it gets the job done.
 
 ```
 
@@ -45,15 +45,3 @@ optional arguments:
   -o O        option to specify an output directory
 
 ```
-
-
-## Installing as a command line tool
-
-```
-to do...
-```
-
-
-# To Do
-1. Write command line script to link python file to bin directory for easy usage.
-2. Refactoring!!!!
